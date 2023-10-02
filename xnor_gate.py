@@ -1,5 +1,5 @@
 def xnor_gate(a, b):
-    return not(a != b)
+    return a == b
 
 
 print(xnor_gate(0,0))
