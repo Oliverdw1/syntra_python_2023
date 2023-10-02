@@ -3,6 +3,7 @@ def nand_gate(a, b):
         return False
     else:
         return True
+# return not(a and b)
 
 
 print(nand_gate(0,0))

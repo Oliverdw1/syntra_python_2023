@@ -3,6 +3,7 @@ def nor_gate(a, b):
         return False
     else:
         return True
+# return not(a or b)
 
 
 print(nor_gate(0,0))
