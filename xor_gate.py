@@ -3,6 +3,7 @@ def xor_gate(a, b):
         return False
     else:
         return True
+# return a!= b
 
 
 print(xor_gate(0,0))
