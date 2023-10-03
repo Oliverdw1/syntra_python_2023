@@ -2,10 +2,7 @@ input_list = []
 
 
 def gemiddelde(list):
-    som = 0
-    for i in list:
-        som += i
-    gemiddelde = som/len(list)
+    gemiddelde = sum(list)/len(list)
     return gemiddelde
 
 
