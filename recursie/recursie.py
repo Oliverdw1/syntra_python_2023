@@ -10,7 +10,8 @@ def factorial(x):
 comp_number = random.randint(1, 20)
 print(comp_number)
 
-def guess_number(counter):
+
+def guess_number(counter=1):
     number = int(input("kies een getal tussen 1 en 20: "))
     if number == comp_number:
         print("goed geraden!")
@@ -19,7 +20,9 @@ def guess_number(counter):
     else:
         guess_number(counter+1)
 
+def main():
+    guess_number()
 
-guess_number(1)
-
+if __name__ == "__main__":
+    main()
 
